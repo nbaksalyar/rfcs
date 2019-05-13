@@ -52,7 +52,7 @@ There are multiple requirements for the triple storage serialisation format. It 
 
 These requirements are non-exclusive; i.e., it MUST be possible to query an older version of an RDF resource which is also encrypted.
 
-The actual serialisation format and storage characteristics are not defined by this RFC and are left to the developer's discretion. A developer MAY choose to support multiple serialisation formats due to the backwards compatiblity requirements or efficiency reasons (e.g., in this case the upgrades requirement can be satisfied by supporting older serialisation formats).
+The actual serialisation format and storage characteristics are not defined by this RFC and are left to the developer's discretion. A developer MAY choose to support multiple serialisation formats due to the backwards compatiblity requirements or efficiency reasons (e.g., in this case the upgrades requirement can be satisfied by supporting older serialisation formats). More information about serialization formats can be found in the accompanying file = [Serialization Formats](serialisation-formats.md).
 
 ### Querying capabilities
 
